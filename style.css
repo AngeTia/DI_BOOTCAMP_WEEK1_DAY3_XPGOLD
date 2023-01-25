@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 100vh;
+    background-image: url(img/map.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+.container{
+    height: 99%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.text{
+    margin-top: 14px;
+    height: 13%;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+   
+}
+h2{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+}
+
+.chiffre{
+    height: 20%;
+    margin-top: 20px;
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.content{
+    height: 90%;
+    width: 23%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.content h2{
+    color: rgb(154, 74, 228);
+}
+.content span{
+    text-transform: uppercase;
+    margin-top: 10px;
+    letter-spacing: 1px;
+    font-size: 10px;
+    color: rgb(0, 0, 0);
+}
+.testimonal{
+    height: 57%;
+    margin-top: 20px;
+    width: 99%;
+   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.box{
+    height: 75%;
+    width: 30%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.avis{
+    height: 65%;
+    width: 90%;
+    background-color: rgb(225, 216, 216);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+.avis p{
+    font-size: 16px;
+    font-weight: 100;
+    margin-top: -24px;
+}
+.profil{
+    height: 35%;
+    width: 90%;
+    background-color: rgb(247, 111, 62);
+    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img{
+    width: 50px;
+    height: 50px;
+    background-image: url('img/image1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    position: absolute;
+    top: -35%;
+}
+.info{
+    color: white;
+    margin-top: 25px;
+}
+.info p{ 
+    font-size: 12px;
+    margin-top: 8px;
+}
+.box2{
+    margin-top: 75px;
+}
+.box3{
+    margin-top: 40px;
+}
+@media  screen and (max-width:800px) {
+    body{
+        height: auto;
+    }
+    .container, .chiffre,
+    .testimonal{
+        flex-direction: column;
+    }
+}
+
+.orange {
+    background-color: orange !important;
+}
+
+.blue {
+    background-color: blue !important;
+}
+
+.vert {
+    background-color: green !important;
+}
